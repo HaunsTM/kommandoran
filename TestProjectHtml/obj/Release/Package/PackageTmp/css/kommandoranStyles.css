@@ -1,0 +1,8 @@
+﻿.svg-container {
+    height: calc(100vh - 105px);
+    display: block;
+}
+
+    .svg-container > svg > g:hover {
+        cursor: pointer;
+    }

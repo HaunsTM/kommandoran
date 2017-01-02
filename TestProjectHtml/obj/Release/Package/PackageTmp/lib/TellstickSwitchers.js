@@ -36,7 +36,7 @@ var toggleDeviceSwitch = function toggleDeviceSwitch(id) {
 
         },
         function (message) {
-            debugger;
+            //debugger;
         }
     );
 }

@@ -56,9 +56,9 @@
     <Reference Include="System.Configuration" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />-->
-    <Folder Include="css\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\kommandoranStyles.css" />
     <Content Include="images\PowerSwitchesMap.svg" />
     <Content Include="lib\TellstickSwitchers.js" />
     <Content Include="Web.config" />
