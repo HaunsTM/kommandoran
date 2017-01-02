@@ -7,7 +7,7 @@
 var hemsamaritenWCFServiceURL = 'http://10.0.0.2:8525/HemsamaritenWCFService/';
 $('#switchOfGroupForNight').on('click', function () {
     //set state
-    $('#toggleSwitch').prop('checked',false);
+    $('#toggleSwitch').bootstrapToggle('off');
 
     var tellstickDevicesToSwitchOff = [35, 36, 37, 38, 39, 40, 41, 42, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53];
     $.each(tellstickDevicesToSwitchOff, function(index, nativeDeviceId) {
