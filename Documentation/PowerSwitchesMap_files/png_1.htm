@@ -1,0 +1,176 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="stylesheet" type="text/css" href="visio.css"/>
+<title>
+PowerSwitchesMap
+</title>
+<script type="text/javascript" language="javascript">
+function UpdateTooltip(){};
+function OnShapeClick(){};
+</script>
+
+<script src="png_1.js" type="text/javascript" language="javascript"></script>
+<script type="text/javascript" language="javascript">
+	if( (parent.isSVG) || 
+		(parent.isVML && parent.vmlSupported) || 
+		(parent.isXAML && parent.isUpLevel)) 
+	{
+		location.replace(parent.g_FileList[parent.g_CurPageIndex].PriImage);
+	}
+</script>
+
+
+<script type="text/javascript" language="javascript">
+var pageID = 0;
+var isUpLevel = parent.isUpLevel;
+var OnShapeClick = null;
+if (!parent.isMac)
+{
+	OnShapeClick = parent.OnShapeClick;
+}
+
+var OnShapeKey = parent.OnShapeKey;
+var UpdateTooltip = parent.UpdateTooltip;
+var clickMenu = parent.clickMenu;
+var toggleMenuDiv = parent.toggleMenuDiv;
+var toggleMenuLink = parent.toggleMenuLink;
+var GoToPage = parent.GoToPage;
+
+
+if (parent.isUpLevel)
+{
+
+	if (parent.g_FirstPageToLoad != null && parent.g_FirstPageToLoad.length > 0)
+	{
+		if (parent.g_FileList[parent.g_CurPageIndex].PageID != pageID)
+		{
+			var fileEntry = parent.g_FileList[parent.g_CurPageIndex];
+			var fileToLoad = fileToLoad = fileEntry.PriImage;
+			if (fileEntry.SecImage.length > 0)
+			{
+				fileToLoad = fileEntry.SecImage;
+			}
+
+			location.replace(fileToLoad);
+		}
+
+		parent.g_FirstPageToLoad = null;
+	}
+
+
+	var viewMgr = new parent.CViewMgr();
+	parent.viewMgr = viewMgr;
+
+	viewMgr.SupportsDetails = true;
+	viewMgr.SupportsSearch = true;
+
+	viewMgr.put_Location = ViewMgrSetRasterLocation;
+	viewMgr.visBBoxLeft = 0.619792;
+	viewMgr.visBBoxRight = 7.616200;
+	viewMgr.visBBoxBottom = 4.451343;
+	viewMgr.visBBoxTop = 11.408885;
+	viewMgr.highlightDiv = null;
+}
+
+function load ()
+{
+	if(isUpLevel)
+	{
+		arrowdiv.innerHTML = '<img id="arrowgif" alt="Shows the location of the selected shape" src="arrow.png"/>';
+
+		var pageIndex = parent.PageIndexFromID (pageID);
+		parent.CurPageUpdate (pageIndex);
+	}
+}
+
+function unload()
+{
+	if(isUpLevel)
+	{
+		viewMgr = null;
+		parent.viewMgr = null;
+	}
+}
+
+window.onload = load;
+window.onunload = unload;
+document.onclick = clickMenu;
+
+</script>
+<style type="text/css"> 
+body {
+	background:url(foo) fixed;
+	padding: 10px;
+}
+div.banner {
+	position: fixed;
+	_position: absolute;
+	top: 0;
+	left: 0;
+	_top: expression(eval(document.body.scrollTop));
+	_left: expression(eval(document.body.scrollLeft));
+	width: 100%;
+	_width: expression(eval(document.body.clientWidth));
+	margin: 0;
+	padding: 3px;
+	padding-left: 6px;
+	background:lime;
+	background-color: #FFFFC6;
+	font: 11px tahoma,arial,serif;
+	border-bottom: 2px ridge #FFFFC6;
+}
+</style>
+</head>
+
+<body class="pageView" bgcolor="#FFFFFF" style="margin: 0px">
+
+<script type="text/javascript" language="javascript">
+// Displays the banner prompt to install Silverlight
+if (parent.slSupported && !parent.slInstalled)
+{
+	var slBanner = document.createElement("div");
+	slBanner.className = "banner";
+	slBanner.innerHTML = 'To enable full functionality such as Pan and Zoom, <a href="http://www.microsoft.com/silverlight/resources/install.aspx" target="parent">click here</a> to install the Silverlight plug-in.';
+
+	document.body.appendChild(slBanner);
+	document.body.style.paddingTop = "2.5em";
+}
+</script>
+
+
+<div id="arrowdiv" style="position:absolute;top:0;left:0;visibility:hidden;z-index:5">
+</div>
+
+<div id="menu1" onclick="clickMenu()" class="hlMenu">
+</div>
+<DIV id="RasterDiv" style="margin:10px">
+
+<center>
+  <IMG id="ConvertedImage" SRC="png_1.png" ALT="PowerSwitchesMap" name=RasterImage BORDER="0" USEMAP="#visImageMap">
+</center>
+
+<MAP NAME="visImageMap">
+  <AREA shape="POLYGON" tabindex="1" ALT="" origTitle="" TITLE="" HREF="javascript:toggleDeviceSwitch(51);" target="_top" COORDS="561,463,561,470,564,476,568,482,573,487,580,491,587,492,594,492,601,491,607,487,613,482,617,476,619,470,620,463,619,455,617,449,612,443,607,438,601,435,594,433,587,433,580,435,574,438,568,443,564,449,562,455,561,463" onmouseover="UpdateTooltip(this,0,1146,event)" onfocus="UpdateTooltip(this,0,1146,event)" onclick="return OnShapeClick(0,1146,event);" onkeyup="OnShapeKey(0,1146,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="" origTitle="" TITLE="" HREF="javascript:toggleDeviceSwitch(50);" target="_top" COORDS="610,369,611,377,613,383,617,389,622,394,629,397,636,399,643,399,650,397,656,394,662,389,666,383,668,377,669,369,668,362,666,356,662,350,656,345,650,342,643,340,636,340,629,342,623,345,617,350,613,356,611,362,610,369" onmouseover="UpdateTooltip(this,0,1142,event)" onfocus="UpdateTooltip(this,0,1142,event)" onclick="return OnShapeClick(0,1142,event);" onkeyup="OnShapeKey(0,1142,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="" origTitle="" TITLE="" HREF="javascript:toggleDeviceSwitch(49);" target="_top" COORDS="610,463,611,470,613,476,617,482,622,487,629,491,636,492,643,492,650,491,656,487,662,482,666,476,668,470,669,463,668,455,666,449,662,443,656,438,650,435,643,433,636,433,629,435,623,438,617,443,613,449,611,455,610,463" onmouseover="UpdateTooltip(this,0,1138,event)" onfocus="UpdateTooltip(this,0,1138,event)" onclick="return OnShapeClick(0,1138,event);" onkeyup="OnShapeKey(0,1138,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="" origTitle="" TITLE="" HREF="javascript:toggleDeviceSwitch(48);" target="_top" COORDS="387,196,388,204,390,210,394,216,400,221,406,224,413,226,420,226,427,224,433,221,439,216,443,210,445,204,446,196,445,189,443,183,439,177,433,172,427,169,420,167,413,167,406,169,400,172,394,177,390,183,388,189,387,196" onmouseover="UpdateTooltip(this,0,1134,event)" onfocus="UpdateTooltip(this,0,1134,event)" onclick="return OnShapeClick(0,1134,event);" onkeyup="OnShapeKey(0,1134,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="" origTitle="" TITLE="" HREF="javascript:toggleDeviceSwitch(47);" target="_top" COORDS="461,196,462,204,464,210,468,216,474,221,480,224,487,226,494,226,501,224,508,221,513,216,517,210,520,204,521,196,520,189,517,183,513,177,508,172,501,169,494,167,487,167,480,169,474,172,469,177,465,183,462,189,461,196" onmouseover="UpdateTooltip(this,0,1130,event)" onfocus="UpdateTooltip(this,0,1130,event)" onclick="return OnShapeClick(0,1130,event);" onkeyup="OnShapeKey(0,1130,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="" origTitle="" TITLE="" HREF="javascript:toggleDeviceSwitch(124);" target="_top" COORDS="446,299,447,306,449,313,453,319,459,323,465,327,472,329,479,329,486,327,493,323,498,319,502,313,505,306,505,299,504,292,502,285,498,279,492,275,486,271,479,270,472,270,465,271,459,275,454,279,449,285,447,292,446,299" onmouseover="UpdateTooltip(this,0,1126,event)" onfocus="UpdateTooltip(this,0,1126,event)" onclick="return OnShapeClick(0,1126,event);" onkeyup="OnShapeKey(0,1126,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="" origTitle="" TITLE="" HREF="javascript:toggleDeviceSwitch(45);" target="_top" COORDS="221,473,222,480,224,487,228,493,233,498,240,501,247,503,254,503,261,501,267,498,273,493,277,487,279,480,280,473,279,466,277,459,273,454,267,449,261,446,254,444,247,444,240,446,234,449,228,454,224,459,222,466,221,473" onmouseover="UpdateTooltip(this,0,1122,event)" onfocus="UpdateTooltip(this,0,1122,event)" onclick="return OnShapeClick(0,1122,event);" onkeyup="OnShapeKey(0,1122,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="" origTitle="" TITLE="" HREF="javascript:toggleDeviceSwitch(44);" target="_top" COORDS="303,345,303,352,306,359,310,365,315,369,322,373,329,375,336,375,343,373,349,369,355,365,359,359,361,352,362,345,361,338,359,331,354,325,349,321,343,317,336,316,329,316,322,317,316,321,310,325,306,331,304,338,303,345" onmouseover="UpdateTooltip(this,0,1118,event)" onfocus="UpdateTooltip(this,0,1118,event)" onclick="return OnShapeClick(0,1118,event);" onkeyup="OnShapeKey(0,1118,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="" origTitle="" TITLE="" HREF="javascript:toggleDeviceSwitch(43);" target="_top" COORDS="466,368,467,376,470,382,474,388,479,393,486,396,493,398,500,398,507,396,513,393,518,388,523,382,525,376,526,368,525,361,522,355,518,349,513,344,507,341,500,339,493,339,486,341,479,344,474,349,470,355,467,361,466,368" onmouseover="UpdateTooltip(this,0,621,event)" onfocus="UpdateTooltip(this,0,621,event)" onclick="return OnShapeClick(0,621,event);" onkeyup="OnShapeKey(0,621,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="" origTitle="" TITLE="" HREF="javascript:toggleDeviceSwitch(40);" target="_top" COORDS="451,613,452,621,454,629,458,636,464,642,470,647,478,650,486,652,494,652,502,650,509,647,516,642,521,636,525,629,528,621,529,613,528,605,525,597,521,590,516,584,509,580,502,576,494,575,486,575,478,576,470,580,464,584,458,590,454,597,452,605,451,613" onmouseover="UpdateTooltip(this,0,617,event)" onfocus="UpdateTooltip(this,0,617,event)" onclick="return OnShapeClick(0,617,event);" onkeyup="OnShapeKey(0,617,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="" origTitle="" TITLE="" HREF="javascript:toggleDeviceSwitch(41);" target="_top" COORDS="498,463,499,470,502,477,506,483,511,488,517,491,524,493,532,493,539,491,545,488,550,483,554,477,557,470,558,463,557,456,554,449,550,444,545,439,538,436,532,434,524,434,517,436,511,439,506,444,502,449,499,456,498,463" onmouseover="UpdateTooltip(this,0,613,event)" onfocus="UpdateTooltip(this,0,613,event)" onclick="return OnShapeClick(0,613,event);" onkeyup="OnShapeKey(0,613,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="" origTitle="" TITLE="" HREF="javascript:toggleDeviceSwitch(42);" target="_top" COORDS="425,442,426,449,429,456,433,462,438,467,445,470,452,472,459,472,466,470,472,467,478,462,482,456,484,449,485,442,484,435,481,428,477,423,472,418,466,415,459,413,452,413,445,415,438,418,433,423,429,428,426,435,425,442" onmouseover="UpdateTooltip(this,0,609,event)" onfocus="UpdateTooltip(this,0,609,event)" onclick="return OnShapeClick(0,609,event);" onkeyup="OnShapeKey(0,609,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="" origTitle="" TITLE="" HREF="javascript:toggleDeviceSwitch(39);" target="_top" COORDS="117,463,117,470,120,477,124,483,129,488,136,491,143,493,150,493,157,491,163,488,169,483,173,477,175,470,176,463,175,456,173,449,168,444,163,439,157,436,150,434,143,434,136,436,130,439,124,444,120,449,118,456,117,463" onmouseover="UpdateTooltip(this,0,605,event)" onfocus="UpdateTooltip(this,0,605,event)" onclick="return OnShapeClick(0,605,event);" onkeyup="OnShapeKey(0,605,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="" origTitle="" TITLE="" HREF="javascript:toggleDeviceSwitch(37);" target="_top" COORDS="277,209,278,216,280,223,284,229,290,234,296,237,303,239,310,239,317,237,324,234,329,229,333,223,336,216,337,209,336,202,333,195,329,190,324,185,317,182,310,180,303,180,296,182,290,185,285,190,281,195,278,202,277,209" onmouseover="UpdateTooltip(this,0,601,event)" onfocus="UpdateTooltip(this,0,601,event)" onclick="return OnShapeClick(0,601,event);" onkeyup="OnShapeKey(0,601,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="" origTitle="" TITLE="" HREF="javascript:toggleDeviceSwitch(38);" target="_top" COORDS="334,56,335,63,337,70,341,76,346,81,353,84,360,86,367,86,374,84,380,81,386,76,390,70,392,63,393,56,392,49,390,42,386,36,380,32,374,28,367,27,360,27,353,28,347,32,341,36,337,42,335,49,334,56" onmouseover="UpdateTooltip(this,0,597,event)" onfocus="UpdateTooltip(this,0,597,event)" onclick="return OnShapeClick(0,597,event);" onkeyup="OnShapeKey(0,597,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="" origTitle="" TITLE="" HREF="javascript:toggleDeviceSwitch(36);" target="_top" COORDS="143,298,144,305,147,312,151,318,156,323,162,326,169,328,177,328,184,326,190,323,195,318,199,312,202,305,203,298,202,291,199,284,195,278,190,274,184,270,177,269,170,269,163,270,156,274,151,278,147,284,144,291,143,298" onmouseover="UpdateTooltip(this,0,593,event)" onfocus="UpdateTooltip(this,0,593,event)" onclick="return OnShapeClick(0,593,event);" onkeyup="OnShapeKey(0,593,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="" origTitle="" TITLE="" HREF="javascript:toggleDeviceSwitch(35);" target="_top" COORDS="143,209,144,216,147,223,151,229,156,234,162,237,169,239,177,239,184,237,190,234,195,229,199,223,202,216,203,209,202,202,199,195,195,190,190,185,184,182,177,180,170,180,163,182,156,185,151,190,147,195,144,202,143,209" onmouseover="UpdateTooltip(this,0,589,event)" onfocus="UpdateTooltip(this,0,589,event)" onclick="return OnShapeClick(0,589,event);" onkeyup="OnShapeKey(0,589,event);">
+</MAP>
+
+
+</DIV>
+</body>
+</html>

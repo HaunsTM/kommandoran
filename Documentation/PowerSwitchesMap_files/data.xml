@@ -1,0 +1,761 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisioDocument>
+	<DocumentProperties>
+		<Title></Title>
+		<HyperlinkBase href=""></HyperlinkBase>
+	</DocumentProperties>
+	<Pages>
+		<Page ID="0" Name="PowerSwitchesMap" NameU="PowerSwitchesMap">
+			<PageProps>
+				<PageScale Unit="IN_F">1.000000000000000</PageScale>
+				<DrawingScale Unit="IN_F">1.000000000000000</DrawingScale>
+			</PageProps>
+			<Shapes>
+				<Shape ID="125" UniqueID="{398045E7-480F-45BC-9283-A70E9F27108C}" Name="Room.2237" NameU="Room.2237">
+					<XForm>
+						<PinX Unit="IN_F">4.308708493604674</PinX>
+						<PinY Unit="IN_F">7.913609927441785</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="166" UniqueID="{E2F9DE5B-08A4-4F53-BFB0-CA81F1B3D19E}" Name="Room.600" NameU="Room.600">
+					<XForm>
+						<PinX Unit="IN_F">1.537731789035785</PinX>
+						<PinY Unit="IN_F">8.771441310042206</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="207" UniqueID="{82B4F888-9FFD-4A86-8B4B-624E5E5762D0}" Name="Room.642" NameU="Room.642">
+					<XForm>
+						<PinX Unit="IN_F">1.822404833324482</PinX>
+						<PinY Unit="IN_F">7.042118609894613</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="248" UniqueID="{0BF459C9-5773-450F-857F-74C7CBD1EC57}" Name="Room.704" NameU="Room.704">
+					<XForm>
+						<PinX Unit="IN_F">6.992031024787491</PinX>
+						<PinY Unit="IN_F">7.042106077844211</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="289" UniqueID="{B558CACE-EE45-4E65-A23D-3F1F470BDB91}" Name="Room.746" NameU="Room.746">
+					<XForm>
+						<PinX Unit="IN_F">6.671312043905192</PinX>
+						<PinY Unit="IN_F">8.771466374143012</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="330" UniqueID="{51200DF5-2F4E-4AFE-9332-B12A9CF6B15A}" Name="Room.788" NameU="Room.788">
+					<XForm>
+						<PinX Unit="IN_F">4.543186916386998</PinX>
+						<PinY Unit="IN_F">6.804987152040590</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="371" UniqueID="{C64CE98B-D54B-4D3E-8839-CEF47B6F16E7}" Name="Room.817" NameU="Room.817">
+					<XForm>
+						<PinX Unit="IN_F">3.785672090906778</PinX>
+						<PinY Unit="IN_F">6.534056754231376</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="412" UniqueID="{E3956181-C303-4A5C-8258-39A7B257189D}" Name="Room.846" NameU="Room.846">
+					<XForm>
+						<PinX Unit="IN_F">3.785672090906778</PinX>
+						<PinY Unit="IN_F">7.153403217533493</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="453" UniqueID="{CB64EB88-2F30-4FFE-A50D-4B50D1AC609C}" Name="Room.888" NameU="Room.888">
+					<XForm>
+						<PinX Unit="IN_F">3.392527884296221</PinX>
+						<PinY Unit="IN_F">8.771441310042206</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="494" UniqueID="{FFD877CD-1D99-4B2B-8DDA-017167C548B7}" Name="Room.917" NameU="Room.917">
+					<XForm>
+						<PinX Unit="IN_F">5.304661869796739</PinX>
+						<PinY Unit="IN_F">8.771441310042206</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="535" UniqueID="{AD680C16-339B-42E7-85BB-4C7E20F9F50A}" Name="Room.990" NameU="Room.990">
+					<XForm>
+						<PinX Unit="IN_F">3.401124870877474</PinX>
+						<PinY Unit="IN_F">10.463681673027242</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="576" UniqueID="{4CFE67FD-AE5D-4885-BFF1-5C445DFB266A}" Name="Decid. tree A" NameU="Decid. tree A">
+					<XForm>
+						<PinX Unit="IN_F">5.744821316724475</PinX>
+						<PinY Unit="IN_F">4.997136368256117</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="589" UniqueID="{79074D7E-88C4-4835-A2AA-2DE48E691D24}" Name="Sheet.589" NameU="Sheet.589">
+					<XForm>
+						<PinX Unit="IN_F">2.421569682646620</PinX>
+						<PinY Unit="IN_F">9.229075029796819</PinY>
+					</XForm>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description></HLURL:Description>
+										<HLURL:Address>javascript:toggleDeviceSwitch(35);</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:ExtraInfo></HLURL:ExtraInfo>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:NewWindow>0</HLURL:NewWindow>
+										<HLURL:AbsoluteURL>javascript:toggleDeviceSwitch(35);</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+				</Shape>
+				<Shape ID="592" UniqueID="{D7DF5648-1A39-4FE3-A993-8019DB864E41}" Name="Sheet.592" NameU="Sheet.592">
+					<Text>1</Text>
+					<XForm>
+						<PinX Unit="IN_F">2.485209339499189</PinX>
+						<PinY Unit="IN_F">9.232281036274198</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="593" UniqueID="{773E528C-E53F-49FC-8E1C-18A8FEC38177}" Name="Sheet.593" NameU="Sheet.593">
+					<XForm>
+						<PinX Unit="IN_F">2.421569682646620</PinX>
+						<PinY Unit="IN_F">8.304335030058564</PinY>
+					</XForm>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description></HLURL:Description>
+										<HLURL:Address>javascript:toggleDeviceSwitch(36);</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:ExtraInfo></HLURL:ExtraInfo>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:NewWindow>0</HLURL:NewWindow>
+										<HLURL:AbsoluteURL>javascript:toggleDeviceSwitch(36);</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+				</Shape>
+				<Shape ID="596" UniqueID="{5501552A-AFBE-40FB-A2EB-40A89796FE44}" Name="Sheet.596" NameU="Sheet.596">
+					<Text>2</Text>
+					<XForm>
+						<PinX Unit="IN_F">2.485209339499189</PinX>
+						<PinY Unit="IN_F">8.307541036535943</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="597" UniqueID="{E31CA975-28C1-4829-A8CF-D6EFE0320501}" Name="Sheet.597" NameU="Sheet.597">
+					<XForm>
+						<PinX Unit="IN_F">4.403839288265301</PinX>
+						<PinY Unit="IN_F">10.823126777821232</PinY>
+					</XForm>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description></HLURL:Description>
+										<HLURL:Address>javascript:toggleDeviceSwitch(38);</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:ExtraInfo></HLURL:ExtraInfo>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:NewWindow>0</HLURL:NewWindow>
+										<HLURL:AbsoluteURL>javascript:toggleDeviceSwitch(38);</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+				</Shape>
+				<Shape ID="600" UniqueID="{860F6C80-F3D2-4E51-91E9-12F61CA7381F}" Name="Sheet.600" NameU="Sheet.600">
+					<Text>4</Text>
+					<XForm>
+						<PinX Unit="IN_F">4.467478945117870</PinX>
+						<PinY Unit="IN_F">10.826332784298611</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="601" UniqueID="{3C601187-7A29-4A3C-B4DB-56C0165843B2}" Name="Sheet.601" NameU="Sheet.601">
+					<XForm>
+						<PinX Unit="IN_F">3.814231380585711</PinX>
+						<PinY Unit="IN_F">9.229075029796819</PinY>
+					</XForm>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description></HLURL:Description>
+										<HLURL:Address>javascript:toggleDeviceSwitch(37);</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:ExtraInfo></HLURL:ExtraInfo>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:NewWindow>0</HLURL:NewWindow>
+										<HLURL:AbsoluteURL>javascript:toggleDeviceSwitch(37);</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+				</Shape>
+				<Shape ID="604" UniqueID="{768E794B-397A-4311-AE83-B65FC508EADD}" Name="Sheet.604" NameU="Sheet.604">
+					<Text>3</Text>
+					<XForm>
+						<PinX Unit="IN_F">3.877871037438280</PinX>
+						<PinY Unit="IN_F">9.232281036274198</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="605" UniqueID="{8BAEAA86-E7ED-42DE-9857-9093F4E6AEB5}" Name="Sheet.605" NameU="Sheet.605">
+					<XForm>
+						<PinX Unit="IN_F">2.143107522541150</PinX>
+						<PinY Unit="IN_F">6.583458931887070</PinY>
+					</XForm>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description></HLURL:Description>
+										<HLURL:Address>javascript:toggleDeviceSwitch(39);</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:ExtraInfo></HLURL:ExtraInfo>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:NewWindow>0</HLURL:NewWindow>
+										<HLURL:AbsoluteURL>javascript:toggleDeviceSwitch(39);</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+				</Shape>
+				<Shape ID="608" UniqueID="{4EB84B60-0FE4-48B9-B947-EF5FC1B863C7}" Name="Sheet.608" NameU="Sheet.608">
+					<Text>5</Text>
+					<XForm>
+						<PinX Unit="IN_F">2.206747179393719</PinX>
+						<PinY Unit="IN_F">6.586664938364450</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="609" UniqueID="{B054637D-E18E-49E9-8730-AC0CD2AB4A55}" Name="Sheet.609" NameU="Sheet.609">
+					<XForm>
+						<PinX Unit="IN_F">5.358806593592123</PinX>
+						<PinY Unit="IN_F">6.803045519167466</PinY>
+					</XForm>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description></HLURL:Description>
+										<HLURL:Address>javascript:toggleDeviceSwitch(42);</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:ExtraInfo></HLURL:ExtraInfo>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:NewWindow>0</HLURL:NewWindow>
+										<HLURL:AbsoluteURL>javascript:toggleDeviceSwitch(42);</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+				</Shape>
+				<Shape ID="612" UniqueID="{105976D8-6026-44B4-9450-80DBBC366320}" Name="Sheet.612" NameU="Sheet.612">
+					<Text>8</Text>
+					<XForm>
+						<PinX Unit="IN_F">5.422446250444692</PinX>
+						<PinY Unit="IN_F">6.806251525644846</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="613" UniqueID="{E9706238-1C5E-4543-B6C5-58DCA832C577}" Name="Sheet.613" NameU="Sheet.613">
+					<XForm>
+						<PinX Unit="IN_F">6.116594617771311</PinX>
+						<PinY Unit="IN_F">6.583458931887070</PinY>
+					</XForm>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description></HLURL:Description>
+										<HLURL:Address>javascript:toggleDeviceSwitch(41);</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:ExtraInfo></HLURL:ExtraInfo>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:NewWindow>0</HLURL:NewWindow>
+										<HLURL:AbsoluteURL>javascript:toggleDeviceSwitch(41);</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+				</Shape>
+				<Shape ID="616" UniqueID="{1F13DE16-1920-49D5-BF47-B9524336AF30}" Name="Sheet.616" NameU="Sheet.616">
+					<Text>7</Text>
+					<XForm>
+						<PinX Unit="IN_F">6.180234274623880</PinX>
+						<PinY Unit="IN_F">6.586664938364450</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="617" UniqueID="{EE0530C7-BA1B-4234-AD05-E1F5CBB0094A}" Name="Sheet.617" NameU="Sheet.617">
+					<XForm>
+						<PinX Unit="IN_F">5.718275927546530</PinX>
+						<PinY Unit="IN_F">5.023819359347607</PinY>
+					</XForm>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description></HLURL:Description>
+										<HLURL:Address>javascript:toggleDeviceSwitch(40);</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:ExtraInfo></HLURL:ExtraInfo>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:NewWindow>0</HLURL:NewWindow>
+										<HLURL:AbsoluteURL>javascript:toggleDeviceSwitch(40);</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+				</Shape>
+				<Shape ID="620" UniqueID="{5A513B70-C925-4E13-9813-645E8A6B60A4}" Name="Sheet.620" NameU="Sheet.620">
+					<Text>6</Text>
+					<XForm>
+						<PinX Unit="IN_F">5.801709807636762</PinX>
+						<PinY Unit="IN_F">5.023726421661770</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="621" UniqueID="{90B49BA8-EEC5-4F43-9C5E-133B3FCFCB83}" Name="Sheet.621" NameU="Sheet.621">
+					<XForm>
+						<PinX Unit="IN_F">5.785096820331581</PinX>
+						<PinY Unit="IN_F">7.570357901657980</PinY>
+					</XForm>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description></HLURL:Description>
+										<HLURL:Address>javascript:toggleDeviceSwitch(43);</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:ExtraInfo></HLURL:ExtraInfo>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:NewWindow>0</HLURL:NewWindow>
+										<HLURL:AbsoluteURL>javascript:toggleDeviceSwitch(43);</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+				</Shape>
+				<Shape ID="624" UniqueID="{58FCA7B2-7984-4661-B9E1-5F7A65BF5ED8}" Name="Sheet.624" NameU="Sheet.624">
+					<Text>9</Text>
+					<XForm>
+						<PinX Unit="IN_F">5.848736477184150</PinX>
+						<PinY Unit="IN_F">7.573563908135360</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="649" UniqueID="{E1DC0438-722A-410F-8928-55BBD99A7FD3}" Name="Door.3065" NameU="Door.3065">
+					<XForm>
+						<PinX Unit="IN_F">1.033168881846831</PinX>
+						<PinY Unit="IN_F">8.405004156060009</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="667" UniqueID="{1BE4D9D0-744E-4CE3-B178-824BE8F5BF7C}" Name="Window.1059" NameU="Window.1059">
+					<XForm>
+						<PinX Unit="IN_F">3.664398185886180</PinX>
+						<PinY Unit="IN_F">11.283791583894180</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="680" UniqueID="{7D3EAD64-8139-41D0-9778-24EA245B0645}" Name="Door.2662" NameU="Door.2662">
+					<XForm>
+						<PinX Unit="IN_F">2.693690625244797</PinX>
+						<PinY Unit="IN_F">9.696883104603510</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="698" UniqueID="{79900DF4-E53B-4946-8056-DC624A20FC49}" Name="Window.1029" NameU="Window.1029">
+					<XForm>
+						<PinX Unit="IN_F">2.003024263060435</PinX>
+						<PinY Unit="IN_F">10.511942599155361</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="724" UniqueID="{60FBE238-3AE1-451B-AC7B-39B5023C2165}" Name="Window.2353" NameU="Window.2353">
+					<XForm>
+						<PinX Unit="IN_F">7.045645642850764</PinX>
+						<PinY Unit="IN_F">6.185603092587057</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="737" UniqueID="{8DEC2AF0-CA54-4EF2-9250-52AD17A52886}" Name="Window.2685" NameU="Window.2685">
+					<XForm>
+						<PinX Unit="IN_F">3.350495387221861</PinX>
+						<PinY Unit="IN_F">9.643621890361823</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="750" UniqueID="{689CF897-0625-4F31-BF15-CA75620B4A3A}" Name="Door.977" NameU="Door.977">
+					<XForm>
+						<PinX Unit="IN_F">5.298326918314567</PinX>
+						<PinY Unit="IN_F">7.952572072165801</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="768" UniqueID="{1BC194CD-8E3D-4A4A-9D83-B7844AF36DDD}" Name="Window.2451" NameU="Window.2451">
+					<XForm>
+						<PinX Unit="IN_F">1.808301263793219</PinX>
+						<PinY Unit="IN_F">6.185603092587057</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="781" UniqueID="{DC61EA51-068C-4B0D-89CD-3D9ABFA0DFCB}" Name="Door.946" NameU="Door.946">
+					<XForm>
+						<PinX Unit="IN_F">2.504996168827082</PinX>
+						<PinY Unit="IN_F">7.390158964516324</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="799" UniqueID="{DB2E099C-D906-4CAE-9999-6B9C55718515}" Name="Door.775" NameU="Door.775">
+					<XForm>
+						<PinX Unit="IN_F">6.171058908852240</PinX>
+						<PinY Unit="IN_F">7.952609668317018</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="817" UniqueID="{F2A87397-749A-4619-B7FB-7716D2DA28BB}" Name="Door" NameU="Door">
+					<XForm>
+						<PinX Unit="IN_F">3.783001510964405</PinX>
+						<PinY Unit="IN_F">7.477381784727427</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="835" UniqueID="{8591A4FF-3C72-48E4-B222-59643B1A5B76}" Name="Window.967" NameU="Window.967">
+					<XForm>
+						<PinX Unit="IN_F">1.555630063430912</PinX>
+						<PinY Unit="IN_F">9.643621890361823</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="848" UniqueID="{06C15512-9EAB-4105-B1B0-804A68824DE1}" Name="Window.1039" NameU="Window.1039">
+					<XForm>
+						<PinX Unit="IN_F">4.520437485277983</PinX>
+						<PinY Unit="IN_F">11.283791583894180</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="861" UniqueID="{90E8F7AE-090A-4D81-A534-B8FF9E4DA862}" Name="Window.3055" NameU="Window.3055">
+					<XForm>
+						<PinX Unit="IN_F">3.795458369071652</PinX>
+						<PinY Unit="IN_F">9.643621890361823</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="874" UniqueID="{76333FBB-27E3-45B7-9194-0FF7604822B7}" Name="Window.2755" NameU="Window.2755">
+					<XForm>
+						<PinX Unit="IN_F">5.210477244941901</PinX>
+						<PinY Unit="IN_F">9.643621890361823</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="887" UniqueID="{649A913B-2296-43A2-9228-755500000BE3}" Name="Window.2765" NameU="Window.2765">
+					<XForm>
+						<PinX Unit="IN_F">6.748661112239453</PinX>
+						<PinY Unit="IN_F">9.643621890361823</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="900" UniqueID="{3EBDCD82-0351-44E2-98A6-D79A70BA7364}" Name="Opening.959" NameU="Opening.959">
+					<XForm>
+						<PinX Unit="IN_F">3.178029560123210</PinX>
+						<PinY Unit="IN_F">7.899310857924111</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="929" UniqueID="{F58E50FE-4C63-46FA-AB0F-17C8ACB4D3D3}" Name="Window.1049" NameU="Window.1049">
+					<XForm>
+						<PinX Unit="IN_F">4.092417835582082</PinX>
+						<PinY Unit="IN_F">11.283791583894180</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="942" UniqueID="{5DCB5240-6FC0-484B-89B2-6AD9376135A7}" Name="Window.2695" NameU="Window.2695">
+					<XForm>
+						<PinX Unit="IN_F">4.198063020536620</PinX>
+						<PinY Unit="IN_F">9.643621890361823</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="968" UniqueID="{DBA45167-C0A5-4FF6-926C-0648A776D292}" Name="Window.1019" NameU="Window.1019">
+					<XForm>
+						<PinX Unit="IN_F">2.866206831185946</PinX>
+						<PinY Unit="IN_F">11.283641199289322</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="981" UniqueID="{DDA847B6-8766-42D4-B59F-7A5E484C76B2}" Name="Door.1069" NameU="Door.1069">
+					<XForm>
+						<PinX Unit="IN_F">3.475464993908059</PinX>
+						<PinY Unit="IN_F">6.517802684849807</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="999" UniqueID="{65DF00E3-DDA3-430B-8CD1-18B215AF328D}" Name="Door.733" NameU="Door.733">
+					<XForm>
+						<PinX Unit="IN_F">6.506441641919050</PinX>
+						<PinY Unit="IN_F">7.523499730235391</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="1017" UniqueID="{344F82DE-75EE-4DC5-AA77-05CA698E34B7}" Name="Window.2363" NameU="Window.2363">
+					<XForm>
+						<PinX Unit="IN_F">5.450315625684532</PinX>
+						<PinY Unit="IN_F">6.185603092587057</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="1030" UniqueID="{058EE104-976D-4A58-8C02-EF20C6A52245}" Name="Window.2441" NameU="Window.2441">
+					<XForm>
+						<PinX Unit="IN_F">2.153283547473956</PinX>
+						<PinY Unit="IN_F">6.185603092587057</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="1061" UniqueID="{7A6FCF6A-7E32-4A70-B380-E6FFA5C8616F}" Name="Door.2461" NameU="Door.2461">
+					<XForm>
+						<PinX Unit="IN_F">3.227931934214114</PinX>
+						<PinY Unit="IN_F">6.132341878345465</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="1092" UniqueID="{C8B77604-25F9-4669-BCBC-D7E4D82C5F05}" Name="Window.2990" NameU="Window.2990">
+					<XForm>
+						<PinX Unit="IN_F">4.460283643311287</PinX>
+						<PinY Unit="IN_F">6.184851169562493</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="1105" UniqueID="{BD9C71D9-B842-446D-BEC0-61A341A4639C}" Name="Window.2373" NameU="Window.2373">
+					<XForm>
+						<PinX Unit="IN_F">5.932924886965565</PinX>
+						<PinY Unit="IN_F">6.185603092587057</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="1118" UniqueID="{734A3357-CA5C-4638-809B-53967338C2A1}" Name="Sheet.1118" NameU="Sheet.1118">
+					<XForm>
+						<PinX Unit="IN_F">4.117736387153264</PinX>
+						<PinY Unit="IN_F">7.816186602496389</PinY>
+					</XForm>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description></HLURL:Description>
+										<HLURL:Address>javascript:toggleDeviceSwitch(44);</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:ExtraInfo></HLURL:ExtraInfo>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:NewWindow>0</HLURL:NewWindow>
+										<HLURL:AbsoluteURL>javascript:toggleDeviceSwitch(44);</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+				</Shape>
+				<Shape ID="1121" UniqueID="{C4C1E957-79AE-44D2-BDA6-733F35FB14D1}" Name="Sheet.1121" NameU="Sheet.1121">
+					<Text>10</Text>
+					<XForm>
+						<PinX Unit="IN_F">4.207089906575066</PinX>
+						<PinY Unit="IN_F">7.819392608973769</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="1122" UniqueID="{49C69839-289C-48C6-9C35-C7F6763C3E17}" Name="Sheet.1122" NameU="Sheet.1122">
+					<XForm>
+						<PinX Unit="IN_F">3.265180997775232</PinX>
+						<PinY Unit="IN_F">6.479743682695677</PinY>
+					</XForm>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description></HLURL:Description>
+										<HLURL:Address>javascript:toggleDeviceSwitch(45);</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:ExtraInfo></HLURL:ExtraInfo>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:NewWindow>0</HLURL:NewWindow>
+										<HLURL:AbsoluteURL>javascript:toggleDeviceSwitch(45);</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+				</Shape>
+				<Shape ID="1125" UniqueID="{94059BE5-55A9-45CD-BCCD-56B8A04B2742}" Name="Sheet.1125" NameU="Sheet.1125">
+					<Text>11</Text>
+					<XForm>
+						<PinX Unit="IN_F">3.354534517197033</PinX>
+						<PinY Unit="IN_F">6.482949689173057</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="1126" UniqueID="{8F9B65A5-83C8-4B69-BBF8-B857C6378AD6}" Name="Sheet.1126" NameU="Sheet.1126">
+					<XForm>
+						<PinX Unit="IN_F">5.609752180740967</PinX>
+						<PinY Unit="IN_F">8.295036248654469</PinY>
+					</XForm>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description></HLURL:Description>
+										<HLURL:Address>javascript:toggleDeviceSwitch(124);</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:ExtraInfo></HLURL:ExtraInfo>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:NewWindow>0</HLURL:NewWindow>
+										<HLURL:AbsoluteURL>javascript:toggleDeviceSwitch(124);</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+				</Shape>
+				<Shape ID="1129" UniqueID="{1C63AA65-8643-415F-A12A-733EF2408ABC}" Name="Sheet.1129" NameU="Sheet.1129">
+					<Text>12</Text>
+					<XForm>
+						<PinX Unit="IN_F">5.699105700162769</PinX>
+						<PinY Unit="IN_F">8.298242255131848</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="1130" UniqueID="{F07A6525-608D-499C-8FDE-0C38F2C4AD5E}" Name="Sheet.1130" NameU="Sheet.1130">
+					<XForm>
+						<PinX Unit="IN_F">5.767856528710888</PinX>
+						<PinY Unit="IN_F">9.360761815502935</PinY>
+					</XForm>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description></HLURL:Description>
+										<HLURL:Address>javascript:toggleDeviceSwitch(47);</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:ExtraInfo></HLURL:ExtraInfo>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:NewWindow>0</HLURL:NewWindow>
+										<HLURL:AbsoluteURL>javascript:toggleDeviceSwitch(47);</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+				</Shape>
+				<Shape ID="1133" UniqueID="{C8BE6EC0-BE52-4BF4-BA7A-2038212DD0AC}" Name="Sheet.1133" NameU="Sheet.1133">
+					<Text>13</Text>
+					<XForm>
+						<PinX Unit="IN_F">5.857210048132690</PinX>
+						<PinY Unit="IN_F">9.363967821980314</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="1134" UniqueID="{F9975E0D-86BB-4FA6-94CE-0A05908D0D01}" Name="Sheet.1134" NameU="Sheet.1134">
+					<XForm>
+						<PinX Unit="IN_F">4.993852031301580</PinX>
+						<PinY Unit="IN_F">9.360761815502935</PinY>
+					</XForm>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description></HLURL:Description>
+										<HLURL:Address>javascript:toggleDeviceSwitch(48);</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:ExtraInfo></HLURL:ExtraInfo>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:NewWindow>0</HLURL:NewWindow>
+										<HLURL:AbsoluteURL>javascript:toggleDeviceSwitch(48);</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+				</Shape>
+				<Shape ID="1137" UniqueID="{7E9EC78C-ECED-4529-AC7D-7B842BD566E4}" Name="Sheet.1137" NameU="Sheet.1137">
+					<Text>14</Text>
+					<XForm>
+						<PinX Unit="IN_F">5.083205550723382</PinX>
+						<PinY Unit="IN_F">9.363967821980314</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="1138" UniqueID="{C7BBB41C-3880-4307-A516-240032CEBACA}" Name="Sheet.1138" NameU="Sheet.1138">
+					<XForm>
+						<PinX Unit="IN_F">7.314888023597717</PinX>
+						<PinY Unit="IN_F">6.589900405797755</PinY>
+					</XForm>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description></HLURL:Description>
+										<HLURL:Address>javascript:toggleDeviceSwitch(49);</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:ExtraInfo></HLURL:ExtraInfo>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:NewWindow>0</HLURL:NewWindow>
+										<HLURL:AbsoluteURL>javascript:toggleDeviceSwitch(49);</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+				</Shape>
+				<Shape ID="1141" UniqueID="{FB8552B9-BDBF-4CF7-AD02-D96C2BE05608}" Name="Sheet.1141" NameU="Sheet.1141">
+					<Text>15</Text>
+					<XForm>
+						<PinX Unit="IN_F">7.404241543019519</PinX>
+						<PinY Unit="IN_F">6.593106412275135</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="1142" UniqueID="{EB04D6A2-C5F8-4033-A367-670D07EF2CE5}" Name="Sheet.1142" NameU="Sheet.1142">
+					<XForm>
+						<PinX Unit="IN_F">7.314888023597717</PinX>
+						<PinY Unit="IN_F">7.559655530608085</PinY>
+					</XForm>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description></HLURL:Description>
+										<HLURL:Address>javascript:toggleDeviceSwitch(50);</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:ExtraInfo></HLURL:ExtraInfo>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:NewWindow>0</HLURL:NewWindow>
+										<HLURL:AbsoluteURL>javascript:toggleDeviceSwitch(50);</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+				</Shape>
+				<Shape ID="1145" UniqueID="{6D895ED8-5CCA-4055-9BF7-B3B1E052E07C}" Name="Sheet.1145" NameU="Sheet.1145">
+					<Text>16</Text>
+					<XForm>
+						<PinX Unit="IN_F">7.404241543019519</PinX>
+						<PinY Unit="IN_F">7.562861537085465</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="1146" UniqueID="{A84EE274-9274-4B36-84EE-BE311C7C51A7}" Name="Sheet.1146" NameU="Sheet.1146">
+					<XForm>
+						<PinX Unit="IN_F">6.803404918172659</PinX>
+						<PinY Unit="IN_F">6.589800149394421</PinY>
+					</XForm>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description></HLURL:Description>
+										<HLURL:Address>javascript:toggleDeviceSwitch(51);</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:ExtraInfo></HLURL:ExtraInfo>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:NewWindow>0</HLURL:NewWindow>
+										<HLURL:AbsoluteURL>javascript:toggleDeviceSwitch(51);</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+				</Shape>
+				<Shape ID="1149" UniqueID="{C1335EB8-AB1D-4C1E-90F1-B802B67E3A1B}" Name="Sheet.1149" NameU="Sheet.1149">
+					<Text>17</Text>
+					<XForm>
+						<PinX Unit="IN_F">6.892758437594461</PinX>
+						<PinY Unit="IN_F">6.593006155871801</PinY>
+					</XForm>
+				</Shape>
+			</Shapes>
+		</Page>
+	</Pages>
+</VisioDocument>
