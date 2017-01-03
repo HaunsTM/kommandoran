@@ -59,7 +59,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="css\kommandoranStyles.css" />
+    <Content Include="images\audio-and-video-controls\play-button_32x32px.png" />
+    <Content Include="images\audio-and-video-controls\play-button_64x64px.png" />
+    <Content Include="images\audio-and-video-controls\stop_32x32px.png" />
+    <Content Include="images\audio-and-video-controls\stop_64x64px.png" />
     <Content Include="images\PowerSwitchesMap.svg" />
+    <Content Include="images\technology\remote-control_32x32px.png" />
+    <Content Include="images\technology\remote-control_64x64px.png" />
     <Content Include="lib\TellstickSwitchers.js" />
     <Content Include="Web.config" />
   </ItemGroup>
