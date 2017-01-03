@@ -1,18 +1,18 @@
 ﻿body {
     /* Margin bottom by footer height */
-    margin-bottom: 30px;
+    margin-bottom: 55px;
     background: beige;
 }
 .navbar + .container-fluid {
-        margin-top: 20px;
+        margin-top: 0px;
     }
     .mainContent {
-        height: calc(100vh - 105px);
+        height: calc(100vh - 128px);
         overflow-y: scroll;
         overflow-x: scroll;
     }
     .svg-container {
-    height: calc(100vh - 105px);
+    height: calc(100vh - 128px);
     display: block;
 }
 
@@ -24,5 +24,5 @@ footer {
     bottom: 0;
     width: 100%;
     /* Set the fixed height of the footer here */
-    height: 30px;
+    height: 50px;
 }

@@ -6,6 +6,7 @@
 });
 
 var hemsamaritenWCFServiceURL = 'http://10.0.0.2:8525/HemsamaritenWCFService/';
+
 $('#switchOfGroupForNight').on('click', function () {
     //set state
     $('#toggleSwitch').bootstrapToggle('off');
@@ -62,3 +63,46 @@ var toggleDeviceSwitch = function toggleDeviceSwitch(id) {
         }
     );
 }
+
+var StartTellstickScheduler = function() {
+    ajaxOptions = {
+        async: true,
+        url: hemsamaritenWCFServiceURL + 'StartTellstickScheduler',
+        dataType: 'jsonp',
+        contentType: "application/json; charset=utf-8",
+        type: 'GET'
+    };
+
+    console.debug('Sent: ' + ajaxOptions.url);
+    // Initiate the request!
+    $.ajax(ajaxOptions)
+        .then(
+            function() {
+
+            },
+            function(message) {
+                //debugger;
+            });
+};
+
+var StopTellstickScheduler = function () {
+
+    ajaxOptions = {
+        async: true,
+        url: hemsamaritenWCFServiceURL + 'StopTellstickScheduler',
+        dataType: 'jsonp',
+        contentType: "application/json; charset=utf-8",
+        type: 'GET'
+    };
+    
+    console.debug('Sent: ' + ajaxOptions.url);
+    // Initiate the request!
+    $.ajax(ajaxOptions)
+        .then(
+            function () {
+
+            },
+            function (message) {
+                //debugger;
+            });
+};
