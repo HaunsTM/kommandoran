@@ -1,8 +1,28 @@
-﻿.svg-container {
-    height: calc(100vh - 105px);
+﻿body {
+    /* Margin bottom by footer height */
+    margin-bottom: 55px;
+    background: beige;
+}
+.navbar + .container-fluid {
+        margin-top: 0px;
+    }
+    .mainContent {
+        height: calc(100vh - 128px);
+        overflow-y: scroll;
+        overflow-x: scroll;
+    }
+    .svg-container {
+    height: calc(100vh - 128px);
     display: block;
 }
 
     .svg-container > svg > g:hover {
         cursor: pointer;
     }
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 50px;
+}

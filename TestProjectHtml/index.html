@@ -1,7 +1,11 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <title></title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width" />
+    <base href="/">
+    <title>Kommandoran™</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
     <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
     <link href="css/kommandoranStyles.css" rel="stylesheet" />
@@ -19,15 +23,14 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand">
+                    <p>Kommandoran™ - prototype</p>
                 </a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div id="navbar" class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
-
                     <li>
                         <p class="navbar-btn">
-                            <input type="checkbox" id="toggleSwitch" checked="checked">
                         </p>
                     </li>
                 </ul>
@@ -35,24 +38,33 @@
         </div><!-- /.container-fluid -->
     </nav>
 
-    <div class="container">
-
-        <div class="row">
-            <div class="col-xs-12">
-                <div class="svg-container">
-                    <object data="images/PowerSwitchesMap.svg" width="100%" height="100%"></object>
+    <div class="container-fluid">
+        <article class="mainContent">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="svg-container">
+                        <object data="images/PowerSwitchesMap.svg"></object>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-xs-12">
-                <button type="button" class="btn btn-default" id="switchOfGroupForNight">Släck för natten</button>
-            </div>
-        </div>
+        </article>
     </div>
 
     <footer class="footer">
         <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="clearfix">
+                        <button type="button" class="btn btn-lg btn-danger" id="switchOnAll">Tänd allt!</button>
+                        <button type="button" class="btn btn-lg btn-default" id="switchOfGroupForNight">Natt</button>
+
+                        <div class="pull-right">
+                            <input type="checkbox" id="toggleSwitch" checked="checked">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
 
         </div>
     </footer>
