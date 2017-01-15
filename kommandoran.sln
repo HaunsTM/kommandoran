@@ -5,8 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{C928696F-DC24-408D-AAA5-4CB41A85EF9B}"
 	ProjectSection(SolutionItems) = preProject
+		Documentation\KommandoranApplication.vsdm = Documentation\KommandoranApplication.vsdm
 		Documentation\PowerSwitchesMap.svg = Documentation\PowerSwitchesMap.svg
-		Documentation\PowerSwitchesMap.vsdx = Documentation\PowerSwitchesMap.vsdx
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProjectHtml", "TestProjectHtml\TestProjectHtml.csproj", "{BC6D1812-9E2E-4EAE-AA9A-D9B48CC9E1E5}"

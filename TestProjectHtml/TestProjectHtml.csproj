@@ -107,7 +107,7 @@
     </VisualStudio>
   </ProjectExtensions>
   <PropertyGroup>
-    <PreBuildEvent>xcopy /y "$(SolutionDir)Documentation\PowerSwitchesMap.svg" "$(ProjectDir)images"</PreBuildEvent>
+    <PreBuildEvent>xcopy /y "$(SolutionDir)Documentation\DevicesMap.svg" "$(ProjectDir)images"</PreBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
