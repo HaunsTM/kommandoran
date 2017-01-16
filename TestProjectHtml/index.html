@@ -43,7 +43,7 @@
                         </ul>
                     </li>
 
-                    
+
                 </ul>
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
@@ -60,29 +60,35 @@
             </div>
         </article>
     </div>
+    
+    <div id="surveillanceCameraModalContent"></div>
 
-    <footer class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12">
-                    <div class="clearfix">
-                        <button type="button" class="btn btn-lg btn-danger" id="switchOnAll">Tänd allt!</button>
-                        <button type="button" class="btn btn-lg btn-default" id="switchOfGroupForNight">Natt</button>
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="clearfix">
+                    <button type="button" class="btn btn-lg btn-danger" id="switchOnAll">Tänd allt!</button>
+                    <button type="button" class="btn btn-lg btn-default" id="switchOfGroupForNight">Natt</button>
 
-                        <div class="pull-right">
-                            <input type="checkbox" id="toggleSwitch" checked="checked">
-                        </div>
+                    <div class="pull-right">
+                        <input type="checkbox" id="toggleSwitch" checked="checked">
                     </div>
-
                 </div>
-            </div>
 
+            </div>
         </div>
-    </footer>
+
+    </div>
+</footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
     <script src="lib/TellstickSwitchers.js"></script>
+<script src="lib/SurveillanceCameraModal.js"></script>
+<script>
+    $('#surveillanceCameraModalContent').load('surveillanceCameraModal.html')
+</script>
 </body>
 </html>
