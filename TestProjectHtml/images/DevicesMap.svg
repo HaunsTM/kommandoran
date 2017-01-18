@@ -3750,7 +3750,7 @@
 				<path d="M0 516.43 A21.2598 21.2598 0 0 1 42.52 516.43 A21.2598 21.2598 0 1 1 0 516.43 Z" class="st18"/>
 				<text x="4.17" y="524.83" class="st19" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>17</text>			</g>
 		</a>
-		<a xlink:href="javascript:window.parent.showSurveillanceCamera(1)">
+		<a xlink:href="javascript:window.parent.showSurveillanceCamera(0)">
 			<g id="shape1221-1501" v:mID="1221" v:groupContext="shape" transform="translate(444.512,-198.041)">
 				<title>Sheet.1221</title>
 				<rect v:rectContext="foreign" x="0" y="494.789" width="43.0471" height="42.9037" class="st20"/>
@@ -4146,8 +4146,8 @@
 				<path d="M0 509.35 A28.3465 28.3465 0 0 1 56.69 509.35 A28.3465 28.3465 0 0 1 0 509.35 Z" class="st18"/>
 				<text x="13.7" y="523.75" class="st21" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>6</text>			</g>
 		</a>
-		<a xlink:href="javascript:window.parent.showSurveillanceCamera(2)">
-			<g id="shape1224-1559" v:mID="1224" v:groupContext="shape" transform="translate(64.0433,-474.611) scale(-1,1)">
+		<a xlink:href="javascript:window.parent.showSurveillanceCamera(1)">
+			<g id="shape1224-1559" v:mID="1224" v:groupContext="shape" transform="translate(290.287,-77.7608)">
 				<title>Sheet.1224</title>
 				<rect v:rectContext="foreign" x="0" y="494.789" width="43.0471" height="42.9037" class="st20"/>
 				<image x="0" y="494.789" width="43.0471" height="42.9037" preserveAspectRatio="none" xlink:href="data:image/png;base64,

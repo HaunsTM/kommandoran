@@ -9,7 +9,26 @@
                 <h4 class="modal-title">Övervakningskamera</h4>
             </div>
             <div class="modal-body">
-                <img id="browser_video" class="img-responsive" alt="video" src="http://10.0.0.70:8080/video">
+                <p id="name"></p>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <img id="browser_video" class="img-responsive img-rounded" alt="video">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-2">
+                        <button type="button" id="icoAudio" class="btn btn-default"><img class="img-responsive" src="images/audio-and-video-controls/speaker32x32.png"></button>
+                    </div>
+                    <div class="col-xs-2">
+                        <a id="icoSnapshot" class="btn btn-default"><img class="img-responsive" src="images/technology/photo-camera32x32.png"></a>
+                    </div>
+                    <div class="col-xs-2">
+                        <button type="button" id="icoLEDFlashlight" class="btn btn-default"><img class="img-responsive" src="images/technology/camera-flash32x32.png"></button>
+                    </div>
+                    <div class="col-xs-2">
+                        <button type="button" id="icoClosestTellstickDevice" class="btn btn-default"><img class="img-responsive" src="images/technology/light-bulb-off32x32.png"></button>
+                    </div>
+                </div>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -18,3 +37,7 @@
 
     </div>
 </div>
+
+
+<script src="lib/SurveillanceCameraModal.js"></script>
+
