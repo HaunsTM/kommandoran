@@ -36,7 +36,7 @@ var toggleDeviceSwitch = function toggleDeviceSwitch(id) {
         ajaxOptions = {
             async: true,
             url: hemsamaritenWCFServiceURL + 'TurnOnTellstickDevice',
-            data: 'nativeDeviceId=' + id,
+            data: 'unitId=' + id,
             dataType: 'jsonp',
             contentType: "application/json; charset=utf-8",
             type: 'GET'
@@ -45,7 +45,7 @@ var toggleDeviceSwitch = function toggleDeviceSwitch(id) {
         ajaxOptions = {
             async: true,
             url: hemsamaritenWCFServiceURL + 'TurnOffTellstickDevice',
-            data: 'nativeDeviceId=' + id,
+            data: 'unitId=' + id,
             dataType: 'jsonp',
             contentType: "application/json; charset=utf-8",
             type: 'GET'

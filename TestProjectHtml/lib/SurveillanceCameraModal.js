@@ -19,7 +19,7 @@ var surveillanceCameras = [
                                  { name: 'disabletorch', state: 'on' }]
             }
         },
-        closestTellstickDevice: { nativeDeviceId: '49', state: 'off' }
+        closestTellstickDevice: { unitId: '15', state: 'off' }
     },
     {
         mapCameraCustomId: 1,
@@ -34,7 +34,7 @@ var surveillanceCameras = [
                 curState: 'off'
             }
         },
-        closestTellstickDevice: { nativeDeviceId: '40', state: 'off' }
+        closestTellstickDevice: { unitId: '6', state: 'off' }
     }];
 
 function SurveillanceCameraIndexBy(mapCameraCustomId) {
@@ -83,7 +83,7 @@ function ToggleTellstickDeviceSwitch(selectedCamera) {
         ajaxOptions = {
             async: true,
             url: hemsamaritenWCFServiceURL + 'TurnOnTellstickDevice',
-            data: 'nativeDeviceId=' + selectedCamera.closestTellstickDevice.nativeDeviceId,
+            data: 'unitId=' + selectedCamera.closestTellstickDevice.unitId,
             dataType: 'jsonp',
             contentType: "application/json; charset=utf-8",
             type: 'GET'
@@ -92,7 +92,7 @@ function ToggleTellstickDeviceSwitch(selectedCamera) {
         ajaxOptions = {
             async: true,
             url: hemsamaritenWCFServiceURL + 'TurnOffTellstickDevice',
-            data: 'nativeDeviceId=' + selectedCamera.closestTellstickDevice.nativeDeviceId,
+            data: 'unitId=' + selectedCamera.closestTellstickDevice.unitId,
             dataType: 'jsonp',
             contentType: "application/json; charset=utf-8",
             type: 'GET'
