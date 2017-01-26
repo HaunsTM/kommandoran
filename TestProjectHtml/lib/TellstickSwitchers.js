@@ -1,8 +1,8 @@
 ﻿$('#toggleSwitch').bootstrapToggle({
     on: 'Tänd',
     onstyle: 'warning',
-    off: 'Släck',
-    size: 'small'
+    off: 'Släck'
+    //, size: 'small'
 });
 
 var hemsamaritenWCFServiceURL = 'http://10.0.0.2:8525/HemsamaritenWCFService/';
