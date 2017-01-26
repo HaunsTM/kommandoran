@@ -128,9 +128,10 @@ function ToggleLEDFlashlight(selectedCamera) {
 function TakeAndDownloadSnapshot(selectedCamera) {
     var tempID = 'tempTakeAndDownloadSnapshotAnchorTag';
     var snapshotMethod = selectedCamera.requestUrl + selectedCamera.APIMethod.snapshot;
-    var nameOfFileWhenDownloaded = '[SNAPSHOT] ' + selectedCamera.name + '      on' + new Date().toISOString();
-    $('#icoSnapshot').append('<a id="' + tempID + '" href="' + snapshotMethod + '" download></a>');
-    $('#' + tempID).trigger('click');
+    var nameOfFileWhenDownloaded = '[SNAPSHOT] ' + selectedCamera.name + '      on' + new Date().toISOString() + '  ' + selectedCamera.APIMethod.snapshot;
+    debugger;
+    $('#icoSnapshot').append('<a id="' + tempID + '" href="' + snapshotMethod + '" download="' + nameOfFileWhenDownloaded + '"></a>');
+    $('#' + tempID).click(function () { return false; });
     $('#' + tempID).remove();
 
 }
@@ -140,7 +141,7 @@ function ToggleAudio(selectedCamera) {
 }
 
 
-function showSurveillanceCamera(id) {
+function ShowSurveillanceCamera(id) {
     selectedCamera = CameraBy(id);
 
     $('#name').text(selectedCamera.name);

@@ -19,6 +19,17 @@
     .svg-container > svg > g:hover {
         cursor: pointer;
     }
+
+#alarm {
+    width: 50px;
+    height: 30px;
+    background: url(/images/alarm.png);
+    background-color: #FFFF00;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
 footer {
     position: absolute;
     bottom: 0;

@@ -59,6 +59,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="css\kommandoranStyles.css" />
+    <Content Include="images\alarm.png" />
     <Content Include="images\surveillance-camera600x598.png" />
     <Content Include="images\technology\camera-flash32x32.png" />
     <Content Include="images\technology\light-bulb-off32x32.png" />
