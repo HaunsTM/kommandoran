@@ -1,4 +1,7 @@
 ﻿'use strict';
+
+//#region Variables
+
 var hemsamaritenWCFServiceURL = 'http://10.0.0.2:8525/HemsamaritenWCFService/';
 
 var selectedCamera = null;
@@ -36,6 +39,8 @@ var surveillanceCameras = [
         },
         closestTellstickDevice: { unitId: '6', state: 'off' }
     }];
+
+//#endregion
 
 function SurveillanceCameraIndexBy(mapCameraCustomId) {
     var i;
@@ -126,20 +131,21 @@ function ToggleLEDFlashlight(selectedCamera) {
 }
 
 function TakeAndDownloadSnapshot(selectedCamera) {
-    var tempID = 'tempTakeAndDownloadSnapshotAnchorTag';
-    var snapshotMethod = selectedCamera.requestUrl + selectedCamera.APIMethod.snapshot;
-    var nameOfFileWhenDownloaded = '[SNAPSHOT] ' + selectedCamera.name + '      on' + new Date().toISOString() + '  ' + selectedCamera.APIMethod.snapshot;
-    debugger;
-    $('#icoSnapshot').append('<a id="' + tempID + '" href="' + snapshotMethod + '" download="' + nameOfFileWhenDownloaded + '"></a>');
-    $('#' + tempID).click(function () { return false; });
-    $('#' + tempID).remove();
 
+    var snapshotMethod = selectedCamera.requestUrl + selectedCamera.APIMethod.snapshot; //where to send the request
+    var nameOfFileWhenDownloaded = '[SNAPSHOT] ' + '[' + selectedCamera.name + ']' + ' [request time ' + new Date().toISOString()+ ']';
+    
+    $('#icoSnapshot').attr({
+        download: nameOfFileWhenDownloaded,
+        href: snapshotMethod
+    });
 }
 
 function ToggleAudio(selectedCamera) {
     
 }
 
+//#region Events
 
 function ShowSurveillanceCamera(id) {
     selectedCamera = CameraBy(id);
@@ -152,20 +158,24 @@ function ShowSurveillanceCamera(id) {
 
 }
 
-
 $('#icoAudio').on('click', function () {
     console.debug('Clicked on ToggleAudio.');
     ToggleAudio(selectedCamera);
 });
+
 $('#icoSnapshot').on('click', function () {
-    console.debug('Clicked on TakeAndDownloadSnapshot.');
     TakeAndDownloadSnapshot(selectedCamera);
+    console.debug('Clicked on TakeAndDownloadSnapshot.');
 });
+
 $('#icoLEDFlashlight').on('click', function () {
     console.debug('Clicked on ToggleLEDFlashlight.');
     ToggleLEDFlashlight(selectedCamera);
 });
+
 $('#icoClosestTellstickDevice').on('click', function () {
     console.debug('Clicked on ToggleTellstickDeviceSwitch.');
     ToggleTellstickDeviceSwitch(selectedCamera);
 });
+
+//#endregion

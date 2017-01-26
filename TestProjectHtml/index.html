@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
     <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
     <link href="css/kommandoranStyles.css" rel="stylesheet" />
+    <script src="https://use.fontawesome.com/655baf28e9.js"></script>
 </head>
 <body>
 
@@ -66,19 +67,37 @@
 <footer class="footer">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12">
-                <div class="clearfix">
-                    <button type="button" class="btn btn-danger btn-sm" id="switchOnAll">Tänd allt!</button>
-                    <button type="button" class="btn btn-sm" id="alarm"></button>
-                    <button type="button" class="btn btn-default btn-sm" id="switchOfGroupForNight">Natt</button>
-
-                    <div class="pull-right">
-                        <input type="checkbox" id="toggleSwitch" checked="checked">
+            <div class="col-xs-4">
+                <div class="btn-group btn-group-justified" role="group" aria-label="...">
+                    <div class="btn-group" role="group">
+                        <button type="button" class="btn btn-danger btn-sm" id="switchOnAll"><i class="fa fa-lg fa-sun-o"></i> Tänd allt!</button>
+                    </div>
+                    <div class="btn-group" role="group">
+                        <button type="button" id="alarm" class="btn btn-default btn-sm"><span><img class="img-responsive" src="images/alarm.png"></span>Alarm!</button>
+                    </div>
+                    <div class="btn-group" role="group">
+                        <button type="button" class="btn btn-danger btn-sm" id="switchOffAll"><i class="fa fa-lg fa-moon-o"></i> Släck allt!</button>
                     </div>
                 </div>
-
+            </div>
+            <div class="col-xs-4"></div>
+            <div class="col-xs-2">
+                <div class="btn-group btn-group-justified" role="group" aria-label="...">
+                    <div class="btn-group" role="group">
+                        <button type="button" class="btn btn-success btn-sm" id="switchOfGroupForNight">Natt</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-2">
+                <input type="checkbox" id="toggleSwitch" checked="checked">
             </div>
         </div>
+        
+        
+        
+        
+        
+
 
     </div>
 </footer>

@@ -22,14 +22,30 @@ $('#alarm').on('click', function () {
     Alarm();
 });
 
+$('#switchOffAll').on('click', function () {
+    //set state
+    $('#toggleSwitch').bootstrapToggle('off');
+
+    var tellstickDevicesToSwitchOff = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19];
+    $.each(tellstickDevicesToSwitchOff, function (index, unitId) {
+        ToggleDeviceSwitch(unitId);
+        console.debug('Sent switch on message to unitId= ' + unitId);
+    });
+});
+
 $('#switchOfGroupForNight').on('click', function () {
     //set state
     $('#toggleSwitch').bootstrapToggle('off');
 
-    var tellstickDevicesToSwitchOff = [1,2,3,5,6,7,8,10,11,12,13,14,15,16,17,18,19];
+    var tellstickDevicesToSwitchOff = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19];
     $.each(tellstickDevicesToSwitchOff, function(index, unitId) {
         ToggleDeviceSwitch(unitId);
         console.debug('Sent switch off message to unitId= ' + unitId);
+    });
+    var tellstickDevicesToSwitchOn = [4, 9];
+    $.each(tellstickDevicesToSwitchOn, function (index, unitId) {
+        ToggleDeviceSwitch(unitId);
+        console.debug('Sent switch on message to unitId= ' + unitId);
     });
 });
 
