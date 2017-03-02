@@ -59,11 +59,15 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="css\kommandoranStyles.css" />
+    <Content Include="images\alarm.png" />
+    <Content Include="images\surveillance-camera600x598.png" />
     <Content Include="images\audio-and-video-controls\play-button_32x32px.png" />
     <Content Include="images\audio-and-video-controls\stop_32x32px.png" />
-    <Content Include="images\PowerSwitchesMap.svg" />
+    <Content Include="images\DevicesMap.svg" />
     <Content Include="images\technology\remote-control_32x32px.png" />
+    <Content Include="lib\SurveillanceCameraModal.js" />
     <Content Include="lib\TellstickSwitchers.js" />
+    <Content Include="surveillanceCameraModal.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -107,7 +111,27 @@
     </VisualStudio>
   </ProjectExtensions>
   <PropertyGroup>
-    <PreBuildEvent>xcopy /y "$(SolutionDir)Documentation\PowerSwitchesMap.svg" "$(ProjectDir)images"</PreBuildEvent>
+    <PreBuildEvent>xcopy /y "$(SolutionDir)Documentation\DevicesMap.svg" "$(ProjectDir)images"</PreBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PostBuildEvent>echo Publishing project to HEMSAMARITEN...
+robocopy /is "$(SolutionDir)TestProjectHtml" "\\HEMSAMARITEN\wwwroot\kommandoran" *.html
+robocopy /is /mir "$(SolutionDir)TestProjectHtml\css" "\\HEMSAMARITEN\wwwroot\kommandoran\css"
+robocopy /is /mir "$(SolutionDir)TestProjectHtml\images" "\\HEMSAMARITEN\wwwroot\kommandoran\images"
+robocopy /is /mir "$(SolutionDir)TestProjectHtml\lib" "\\HEMSAMARITEN\wwwroot\kommandoran\lib"
+
+set rce=%25errorlevel%25
+IF %25rce%25==1 (
+	echo Published project to HEMSAMARITEN done!
+	exit 0
+) ELSE (
+	IF %25rce%25==3 (
+		echo Published project to HEMSAMARITEN done!
+		exit 0
+	)ELSE (
+        exit %25rce%25
+    )
+)</PostBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

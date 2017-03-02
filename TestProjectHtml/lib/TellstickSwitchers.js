@@ -1,55 +1,110 @@
 ﻿$('#toggleSwitch').bootstrapToggle({
     on: 'Tänd',
     onstyle: 'warning',
-    off: 'Släck',
-    size: 'large'
+    off: 'Släck'
+    //, size: 'small'
 });
 
 var hemsamaritenWCFServiceURL = 'http://10.0.0.2:8525/HemsamaritenWCFService/';
-
-$('#switchOfGroupForNight').on('click', function () {
-    //set state
-    $('#toggleSwitch').bootstrapToggle('off');
-
-    var tellstickDevicesToSwitchOff = [35, 36, 37, 39, 41, 42, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53];
-    $.each(tellstickDevicesToSwitchOff, function(index, nativeDeviceId) {
-        toggleDeviceSwitch(nativeDeviceId);
-        console.debug('Sent switch off message to nativeDeviceId= ' + nativeDeviceId);
-    });
-});
 
 $('#switchOnAll').on('click', function () {
     //set state
     $('#toggleSwitch').bootstrapToggle('on');
 
-    var tellstickDevicesToSwitchOn = [35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53];
-    $.each(tellstickDevicesToSwitchOn, function (index, nativeDeviceId) {
-        toggleDeviceSwitch(nativeDeviceId);
-        console.debug('Sent switch on message to nativeDeviceId= ' + nativeDeviceId);
+    var tellstickDevicesToSwitchOn = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19];
+    $.each(tellstickDevicesToSwitchOn, function (index, unitId) {
+        ToggleDeviceSwitch(unitId);
+        console.debug('Sent switch on message to unitId= ' + unitId);
     });
 });
 
-var toggleDeviceSwitch = function toggleDeviceSwitch(id) {
+$('#alarm').on('click', function () {
+    Alarm();
+});
+
+$('#switchOffAll').on('click', function () {
+    //set state
+    $('#toggleSwitch').bootstrapToggle('off');
+
+    var tellstickDevicesToSwitchOff = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19];
+    $.each(tellstickDevicesToSwitchOff, function (index, unitId) {
+        ToggleDeviceSwitch(unitId);
+        console.debug('Sent switch on message to unitId= ' + unitId);
+    });
+});
+
+$('#switchOfGroupForNight').on('click', function () {
+
+    var tellstickDevicesToSwitchOff = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19];
+    $('#toggleSwitch').bootstrapToggle('off');
+
+    $.each(tellstickDevicesToSwitchOff, function(index, unitId) {
+        ToggleDeviceSwitch(unitId);
+        console.debug('Sent switch off message to unitId= ' + unitId);
+    });
+
+    var tellstickDevicesToSwitchOn = [4, 9];
+    $('#toggleSwitch').bootstrapToggle('on');
+
+    $.each(tellstickDevicesToSwitchOn, function (index, unitId) {
+        ToggleDeviceSwitch(unitId);
+        console.debug('Sent switch on message to unitId= ' + unitId);
+    });
+});
+
+var ajaxOptionsTurnOnTellstick = function(id) {
+    var ajaxOptions;
+
+    ajaxOptions = {
+        async: true,
+        url: hemsamaritenWCFServiceURL + 'TurnOnTellstickDevice',
+        data: 'unitId=' + id,
+        dataType: 'jsonp',
+        contentType: "application/json; charset=utf-8",
+        type: 'GET'
+    };
+
+    return ajaxOptions;
+}
+
+var ajaxOptionsTurnOffTellstick = function(id) {
+    var ajaxOptions;
+
+    ajaxOptions = {
+        async: true,
+        url: hemsamaritenWCFServiceURL + 'TurnOffTellstickDevice',
+        data: 'unitId=' + id,
+        dataType: 'jsonp',
+        contentType: "application/json; charset=utf-8",
+        type: 'GET'
+    };
+
+    return ajaxOptions;
+}
+
+var Alarm = function() {
+    var ajaxOptions;
+    ajaxOptions = ajaxOptionsTurnOnTellstick(21);
+    // Initiate the request!
+    $.ajax(ajaxOptions)
+        .then(
+        function () {
+
+
+        },
+        function (message) {
+            debugger;
+        }
+    );
+}
+
+var ToggleDeviceSwitch = function (id) {
     var ajaxOptions;
     var turnOnDevice = $('#toggleSwitch').prop('checked');
     if (turnOnDevice) {
-        ajaxOptions = {
-            async: true,
-            url: hemsamaritenWCFServiceURL + 'TurnOnTellstickDevice',
-            data: 'nativeDeviceId=' + id,
-            dataType: 'jsonp',
-            contentType: "application/json; charset=utf-8",
-            type: 'GET'
-        };
+        ajaxOptions = ajaxOptionsTurnOnTellstick(id);
     } else {
-        ajaxOptions = {
-            async: true,
-            url: hemsamaritenWCFServiceURL + 'TurnOffTellstickDevice',
-            data: 'nativeDeviceId=' + id,
-            dataType: 'jsonp',
-            contentType: "application/json; charset=utf-8",
-            type: 'GET'
-        };
+        ajaxOptions = ajaxOptionsTurnOffTellstick(id);
     }
     console.debug('Sent: ' + ajaxOptions.url);
     // Initiate the request!
