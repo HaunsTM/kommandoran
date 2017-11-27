@@ -4326,5 +4326,77 @@
 				<rect v:rectContext="foreign" x="0" y="494.789" width="43.0471" height="42.9037" class="st20"/>
 			</g>
 		</a>
+		<a xlink:href="javascript:window.parent.ToggleDeviceSwitch(20)">
+			<g id="shape1225-1563" v:mID="1225" v:groupContext="shape" transform="translate(439.37,-347.244)">
+				<title>Circle.1225</title>
+				<desc>20</desc>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="21.2598" cy="516.433" width="42.52" height="42.5197"/>
+				<path d="M0 516.43 A21.2598 21.2598 0 0 1 42.52 516.43 A21.2598 21.2598 0 1 1 0 516.43 Z" class="st18"/>
+				<text x="4.17" y="524.83" class="st19" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>20</text>			</g>
+		</a>
+		<a xlink:href="javascript:window.parent.ToggleDeviceSwitch(21)">
+			<g id="shape1226-1566" v:mID="1226" v:groupContext="shape" transform="translate(35.4331,-7.08661)">
+				<title>Circle.1226</title>
+				<desc>21</desc>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="21.2598" cy="516.433" width="42.52" height="42.5197"/>
+				<path d="M0 516.43 A21.2598 21.2598 0 0 1 42.52 516.43 A21.2598 21.2598 0 1 1 0 516.43 Z" class="st18"/>
+				<text x="4.17" y="524.83" class="st19" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>21</text>			</g>
+		</a>
+		<a xlink:href="javascript:window.parent.ToggleDeviceSwitch(22)">
+			<g id="shape1227-1569" v:mID="1227" v:groupContext="shape" transform="translate(92.126,-7.08661)">
+				<title>Circle.1227</title>
+				<desc>22</desc>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="21.2598" cy="516.433" width="42.52" height="42.5197"/>
+				<path d="M0 516.43 A21.2598 21.2598 0 0 1 42.52 516.43 A21.2598 21.2598 0 1 1 0 516.43 Z" class="st18"/>
+				<text x="4.17" y="524.83" class="st19" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>22</text>			</g>
+		</a>
+		<a xlink:href="javascript:window.parent.ToggleDeviceSwitch(23)">
+			<g id="shape1228-1572" v:mID="1228" v:groupContext="shape" transform="translate(148.819,-7.08661)">
+				<title>Circle.1228</title>
+				<desc>23</desc>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="21.2598" cy="516.433" width="42.52" height="42.5197"/>
+				<path d="M0 516.43 A21.2598 21.2598 0 0 1 42.52 516.43 A21.2598 21.2598 0 1 1 0 516.43 Z" class="st18"/>
+				<text x="4.17" y="524.83" class="st19" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>23</text>			</g>
+		</a>
+		<a xlink:href="javascript:window.parent.ToggleDeviceSwitch(24)">
+			<g id="shape1229-1575" v:mID="1229" v:groupContext="shape" transform="translate(198.425,-7.08661)">
+				<title>Circle.1229</title>
+				<desc>24</desc>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="21.2598" cy="516.433" width="42.52" height="42.5197"/>
+				<path d="M0 516.43 A21.2598 21.2598 0 0 1 42.52 516.43 A21.2598 21.2598 0 1 1 0 516.43 Z" class="st18"/>
+				<text x="4.17" y="524.83" class="st19" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>24</text>			</g>
+		</a>
+		<a xlink:href="javascript:window.parent.ToggleDeviceSwitch(25)">
+			<g id="shape1230-1578" v:mID="1230" v:groupContext="shape" transform="translate(262.205,-7.08661)">
+				<title>Circle.1230</title>
+				<desc>25</desc>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="21.2598" cy="516.433" width="42.52" height="42.5197"/>
+				<path d="M0 516.43 A21.2598 21.2598 0 0 1 42.52 516.43 A21.2598 21.2598 0 1 1 0 516.43 Z" class="st18"/>
+				<text x="4.17" y="524.83" class="st19" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>25</text>			</g>
+		</a>
 	</g>
 </svg>

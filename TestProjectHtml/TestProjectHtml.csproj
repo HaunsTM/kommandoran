@@ -20,6 +20,7 @@
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
     <UseGlobalApplicationHostFile />
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -115,10 +116,10 @@
   </PropertyGroup>
   <PropertyGroup>
     <PostBuildEvent>echo Publishing project to HEMSAMARITEN...
-robocopy /is "$(SolutionDir)TestProjectHtml" "\\HEMSAMARITEN\wwwroot\kommandoran" *.html
-robocopy /is /mir "$(SolutionDir)TestProjectHtml\css" "\\HEMSAMARITEN\wwwroot\kommandoran\css"
-robocopy /is /mir "$(SolutionDir)TestProjectHtml\images" "\\HEMSAMARITEN\wwwroot\kommandoran\images"
-robocopy /is /mir "$(SolutionDir)TestProjectHtml\lib" "\\HEMSAMARITEN\wwwroot\kommandoran\lib"
+robocopy /is "$(SolutionDir)TestProjectHtml" "\\Hemsamariten\c\inetpub\wwwroot\kommandoran" *.ht*
+robocopy /is /mir "$(SolutionDir)TestProjectHtml\css" "\\Hemsamariten\c\inetpub\wwwroot\kommandoran\css"
+robocopy /is /mir "$(SolutionDir)TestProjectHtml\images" "\\Hemsamariten\c\inetpub\wwwroot\kommandoran\images"
+robocopy /is /mir "$(SolutionDir)TestProjectHtml\lib" "\\Hemsamariten\c\inetpub\wwwroot\kommandoran\lib"
 
 set rce=%25errorlevel%25
 IF %25rce%25==1 (

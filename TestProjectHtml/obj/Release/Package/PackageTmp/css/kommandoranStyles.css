@@ -1,28 +1,44 @@
 ﻿body {
     /* Margin bottom by footer height */
-    margin-bottom: 55px;
+    margin-bottom: 70px;
     background: beige;
 }
 .navbar + .container-fluid {
         margin-top: 0;
     }
     .mainContent {
-        height: calc(100vh - 128px);
+        height: calc(100vh - 145px);
         overflow-y: scroll;
         overflow-x: scroll;
     }
     .svg-container {
-    height: calc(100vh - 128px);
+    height: calc(100vh - 145px);
     display: block;
 }
 
     .svg-container > svg > g:hover {
         cursor: pointer;
     }
+
+#alarm {
+    
+    position: relative;
+  padding: 6px 40px;
+  text-align: center;
+    background-color: #FFFF00;
+}
+
+#alarm img {
+    position: absolute;
+  left: 6px;
+  top: 50%;
+    height: 25px;
+  transform: translateY(-50%);}
+
 footer {
     position: absolute;
     bottom: 0;
     width: 100%;
     /* Set the fixed height of the footer here */
-    height: 50px;
+    height: 70px;
 }
