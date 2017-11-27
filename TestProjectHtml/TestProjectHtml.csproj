@@ -116,7 +116,7 @@
   </PropertyGroup>
   <PropertyGroup>
     <PostBuildEvent>echo Publishing project to HEMSAMARITEN...
-robocopy /is "$(SolutionDir)TestProjectHtml" "\\Hemsamariten\c\inetpub\wwwroot\kommandoran" *.ht*
+robocopy /is "$(SolutionDir)TestProjectHtml" "\\Hemsamariten\c\inetpub\wwwroot\kommandoran" *.*
 robocopy /is /mir "$(SolutionDir)TestProjectHtml\css" "\\Hemsamariten\c\inetpub\wwwroot\kommandoran\css"
 robocopy /is /mir "$(SolutionDir)TestProjectHtml\images" "\\Hemsamariten\c\inetpub\wwwroot\kommandoran\images"
 robocopy /is /mir "$(SolutionDir)TestProjectHtml\lib" "\\Hemsamariten\c\inetpub\wwwroot\kommandoran\lib"
