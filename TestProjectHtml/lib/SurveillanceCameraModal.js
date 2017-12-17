@@ -9,9 +9,60 @@ var selectedCamera = null;
 var surveillanceCameras = [
     {
         mapCameraCustomId: 0,
+        name: 'DCS-2330L_1',
+        location: 'Hans rum mot skrivbordet',
+        requestUrl: 'http://10.0.0.110:80/',
+        APIMethod: {
+            audio: 'audio.opus',
+            snapshot: 'shot.jpg',
+            videoStream: 'video2.mjpg',
+            ledFlashlight: {
+                curState: 'off',
+                possibleStates: [{ name: 'enabletorch', state: 'off' },
+                    { name: 'disabletorch', state: 'on' }]
+            }
+        },
+        closestTellstickDevice: { unitId: '15', state: 'off' }
+    },
+    {
+        mapCameraCustomId: 1,
+        name: 'DCS-2330L_2',
+        location: 'Garaget',
+        requestUrl: 'http://10.0.0.111:80/',
+        APIMethod: {
+            audio: 'audio.opus',
+            snapshot: 'shot.jpg',
+            videoStream: 'video2.mjpg',
+            ledFlashlight: {
+                curState: 'off',
+                possibleStates: [{ name: 'enabletorch', state: 'off' },
+                    { name: 'disabletorch', state: 'on' }]
+            }
+        },
+        closestTellstickDevice: { unitId: '15', state: 'off' }
+    },
+    {
+        mapCameraCustomId: 2,
+        name: 'DCS-2330L_3',
+        location: 'Fågelmataren',
+        requestUrl: 'http://10.0.0.112:80/',
+        APIMethod: {
+            audio: 'audio.opus',
+            snapshot: 'shot.jpg',
+            videoStream: 'video2.mjpg',
+            ledFlashlight: {
+                curState: 'off',
+                possibleStates: [{ name: 'enabletorch', state: 'off' },
+                    { name: 'disabletorch', state: 'on' }]
+            }
+        },
+        closestTellstickDevice: { unitId: '15', state: 'off' }
+    },
+    {
+        mapCameraCustomId: 3,
         name: 'Sony Xperia Z3 Compact',
         location: 'Hans rum mot skrivbordet',
-        requestUrl: 'http://10.0.0.70:8080/',
+        requestUrl: 'http://10.0.0.112:80/',
         APIMethod: {
             audio: 'audio.opus',
             snapshot: 'shot.jpg',
@@ -19,13 +70,13 @@ var surveillanceCameras = [
             ledFlashlight: {
                 curState: 'off',
                 possibleStates: [{ name: 'enabletorch', state: 'off' },
-                                 { name: 'disabletorch', state: 'on' }]
+                    { name: 'disabletorch', state: 'on' }]
             }
         },
         closestTellstickDevice: { unitId: '15', state: 'off' }
     },
     {
-        mapCameraCustomId: 1,
+        mapCameraCustomId: 4,
         name: 'Samsung Galaxy S4',
         location: '',
         requestUrl: 'http://10.0.0.72:8080/',
@@ -155,7 +206,6 @@ function ShowSurveillanceCamera(id) {
     $('#browser_video').attr('src', selectedCamera.requestUrl + selectedCamera.APIMethod.videoStream);
 
     $("#surveillanceCameraModal").modal({ show: true });
-
 }
 
 $('#icoAudio').on('click', function () {
