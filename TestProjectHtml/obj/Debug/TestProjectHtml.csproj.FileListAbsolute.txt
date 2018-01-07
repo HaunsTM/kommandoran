@@ -1,6 +1,0 @@
-C:\Visual Studio 2015 DATA\kommandoran\TestProjectHtml\bin\$safeprojectname$.dll.config
-C:\Visual Studio 2015 DATA\kommandoran\TestProjectHtml\bin\$safeprojectname$.dll
-C:\Visual Studio 2015 DATA\kommandoran\TestProjectHtml\bin\$safeprojectname$.pdb
-C:\Visual Studio 2015 DATA\kommandoran\TestProjectHtml\obj\Debug\TestProjectHtml.csprojResolveAssemblyReference.cache
-C:\Visual Studio 2015 DATA\kommandoran\TestProjectHtml\obj\Debug\$safeprojectname$.dll
-C:\Visual Studio 2015 DATA\kommandoran\TestProjectHtml\obj\Debug\$safeprojectname$.pdb
